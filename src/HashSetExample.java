@@ -8,11 +8,15 @@ public class HashSetExample {
 		String x = "My Hash Set Example";
 		
 	Set<Integer>mySet= new HashSet<Integer>();
-	//Adding 
+	//Hash Set doesn't print numbers that are more than once in the code 
 	
 	mySet.add(1);
 	mySet.add(2);
 	mySet.add(2);
+	mySet.add(5);
+	mySet.add(9);
+	mySet.add(9);
+	
 	 System.out.println(x);
  for (Integer anInt : mySet)
  {
