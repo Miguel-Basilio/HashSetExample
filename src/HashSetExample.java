@@ -19,6 +19,12 @@ public class HashSetExample {
 	 System.out.println(anInt);
 	
  }
+ int i;
+ for (i=0; i<=10; i++){
+		
+	 System.out.print(i);
+	 
+ }
 	}
 	
 	
