@@ -6,7 +6,7 @@ public class HashSetExample {
 	{
 		
 		String x = "My Hash Set Example";
-		
+		 System.out.println(x);
 	Set<Integer>mySet= new HashSet<Integer>();
 	//Hash Set doesn't print numbers that are more than once in the code 
 	
@@ -16,8 +16,16 @@ public class HashSetExample {
 	mySet.add(5);
 	mySet.add(9);
 	mySet.add(9);
+	Set<String>myString= new HashSet<String>();
+	myString.add("hello ");
+	myString.add("Hello ");
+	myString.add("hello ");
 	
-	 System.out.println(x);
+	for(String anWord : myString){
+		System.out.print(anWord);
+	}
+	
+	
  for (Integer anInt : mySet)
  {
 	 System.out.println(anInt);
